@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="./giohang1.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.css">
+</head>
+<body>
+    <div id="header">
+        <div id="header-top">
+            <div id="h_left">
+                <ul>
+                    <li><a href="dangky1.html">Đăng ký</a></li>
+                    <li class="float"><a href="./dangnhap1.html">Đăng nhập</a></li>
+                </ul>
+            </div>
+            <div id="h_right">
+                <ul>
+                    <li><a href="#">Hướng dẫn</a></li>
+                    <a href="giohang1.html"><li class="float"><a href="#">Đơn hàng</a></li></a>
+                </ul>
+            </div>
+        </div>
+        <div id="header-content">
+            <div id="header-logo">
+                <a href=""><img src="./img_logo/logo (1).webp" alt=""></a>
+            </div>
+            <div id="header-icons">
+                <div id="icons-left">
+                    <i class="fa-sharp fa-solid fa-truck"></i>
+                    <div class="icons-nd">
+                        <p class="green">Miễn phí vận chuyển</p>
+                        <span>Với đơn hàng trị giá trên <b>1.000.000đ</b></span>
+                    </div>
+                </div>
+                <div id="icons-right">
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    <div class="icons-nd">
+                        <p class="green">Đặt hàng nhanh</p>
+                        <span>Gọi ngay <a href="" class="sdt">0974389067</a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="header-bag">
+               <a href=""> <i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                <div class="icons-nd">
+                    <i class="fa-duotone fa-cart-shopping"></i>
+                    <a href=""><p class="green">Giỏ hàng</p></a>
+                    
+                    <a href="" class="color-black"><span>(0)</span> Sản phẩm</a>
+                </div>
+            </div>
+        </div>
+        <div id="header-bottom">
+            <ul id="list-content">
+                <li class="list-child home"><a href="BTL.html">TRANG CHỦ</a></li>
+                <li class="list-child"><a href="">GIỚI THIỆU</a></li>
+                <li class="list-child nav">
+                    <a href="">SẢN PHẨM</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul class="subnav">
+                        <li><a href="./chi_tiet_sp1.html">ACER NITRO</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./chi_tiet_sp1.html">DEL</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./chi_tiet_sp1.html">HP</a><i class="fa-solid fa-angle-right"></i></li>
+                        
+                    </ul>
+                </li>
+                <li class="list-child"><a href="BTL.html">TIN TỨC</a></li>
+                <li class="list-child"><a href="BTL.html">LIÊN HỆ</a></li>
+            </ul>
+            <form action="" method="post" id="search-parent">
+                <input id="search" type="text" placeholder="Tim kiem...">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+    </div>
+    <div id="content">
+        <div id="breadcrumb">
+            <ul>
+             <li class="vitri"><a href="BTL.html">Trang chủ</a></li>
+             <li class="vitrihientai"><p>Giỏ hàng</p></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="cart-container">
+            <div class="cart-content-info">
+                <div class="column-1">
+                    <div class="txt-anhsp">
+                        <span>Ảnh sản phẩm</span>
+                    </div>
+                    <div class="img-sp">
+                        <a href="BTL.html"> <img style="width: 70%; margin-left: 40px;" src="./ảnh slider1.webp" alt=""></a>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="txt-tensp">
+                        <span>Tên sản phẩm</span>
+                    </div>
+                    <div class="ten-sp">
+                        <a href="./chi_tiet_sp1.html">Lenovo Yoga 7 14IAL7 i5 1240P</a>
+                        <p>Đen /  Trắng</p>
+                    </div>
+                </div>
+                <div class="column-3">
+                    <div class="txt-dongia">
+                        <span>Đơn giá</span>
+                    </div>
+                    <div class="dongia-sp">
+                        15.000.000đ
+                    </div>
+                </div>
+                <div class="column-4">
+                    <div class="txt-soluong">
+                        <span>Số lượng</span>
+                    </div>
+                    <div class="soluong-sp">
+                        <div class="minus-plus">
+                            <i class="fa-sharp fa-solid fa-minus" id="btn-minus"></i>
+                            <input type="number" name="" id="quantity" value="1" maxlength="3" class="input-soluong">
+                            <i class="fa-sharp fa-solid fa-plus" id="btn-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-5">
+                    <div class="txt-thanhtien">
+                        <span>Thành tiền</span>
+                    </div>
+                    <div class="dongia-sp thanhtien-sp"><span id="price"> 15.000.000đ</span></div>
+                </div>
+                <div class="column-6">
+                    <div class="txt-delete">
+                        <span>Xóa</span>
+                    </div>
+                    <div class="xoa-sp"><i class="fa-solid fa-trash"></i></div>
+                </div>
+            </div>
+            <div class="total-price">
+                <div class="txt-tongtien"><span>Tổng tiền</span></div>
+                <div class="txt-price"><span id="price-total">15.000.000đ</span></div>
+            </div>
+            <div class="cart-footer-info">
+                <button class="tieptucmua" title="Tiếp tục mua hàng" type="button"><span>Tiếp tục mua hàng</span></button>
+                <button class="thanhtoan" title="Tiến hành thanh toán" type="buton"><span>tiến hành thanh toán</span></button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="width90">
+            <div id="ft_left">
+                <div id="logo">
+                    <a href=""><img src="./img_logo/logo (1).webp" alt=""></a>
+                </div>
+                <div class="ft_left_thongtin">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <a href="https://www.google.com/maps/place/Ch%C3%AD+T%C3%A2n,+Kho%C3%A1i+Ch%C3%A2u,+H%C6%B0ng+Y%C3%AAn,+Vi%E1%BB%87t+Nam/@20.7846396,105.9622006,15z/data=!3m1!4b1!4m6!3m5!1s0x3135b9dfa971ac97:0x49787c8e1d561e13!8m2!3d20.7843831!4d105.9729255!16s%2Fg%2F1hb_fpm0n"><p>Chí Tân - Khoái Châu - Hưng Yên</p></a>
+                </div>
+                <div class="ft_left_thongtin">
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    <a href="BTL.html" class="thongtinhover">0974389067</a>
+                </div>
+                <div class="ft_left_thongtin">
+                    <i class="fa-sharp fa-regular fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/u/5/#inbox" class="thongtinhover">Minh291123@gmail.com</a>
+                </div>
+            </div>
+            <div id="ft_right">
+                <div class="ft_right_thongtin">
+                    <h3>TÀI KHOẢN</h3>
+                    <a href="BTL.html">Trang chủ</a>
+                    <a href="BTL.html">Giới thiệu</a>
+                    <a href="BTL.html">Sản phẩm</a>
+                    <a href="BTL.html">Tin tức</a>
+                    <a href="BTL.html">Liên hệ</a>
+                </div>
+                <div class="ft_right_thongtin">
+                    <h3>CHÍNH SÁCH</h3>
+                    <a href="BTL.html">Trang chủ</a>
+                    <a href="BTL.html">Giới thiệu</a>
+                    <a href="BTL.html">Sản phẩm</a>
+                    <a href="BTL.html">Tin tức</a>
+                    <a href="BTL.html">Liên hệ</a>
+                </div>
+                <div class="ft_right_thongtin">
+                    <h3>ĐIỀU KHOẢN</h3>
+                    <a href="BTL.html">Trang chủ</a>
+                    <a href="BTL.html">Giới thiệu</a>
+                    <a href="BTL.html">Sản phẩm</a>
+                    <a href="BTL.html">Tin tức</a>
+                    <a href="BTL.html">Liên hệ</a>
+                </div>
+                <div class="ft_right_thongtin">
+                    <h3>HƯỚNG DẪN</h3>
+                    <a href="BTL.html">Trang chủ</a>
+                    <a href="BTL.html">Giới thiệu</a>
+                    <a href="BTL.html">Sản phẩm</a>
+                    <a href="BTL.html">Tin tức</a>
+                    <a href="BTL.html">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const plusButton = document.getElementById("btn-plus");
+        const minusButton = document.getElementById("btn-minus");
+        const quantityInput = document.getElementById("quantity");
+        const priceSpan = document.getElementById("price");
+        const priceTotalSpan = document.getElementById("price-total");
+        let price = 550;
+
+        plusButton.addEventListener("click", function() {
+          let quantity = parseInt(quantityInput.value);
+          quantityInput.value = quantity + 1;
+          price += 550;
+          priceSpan.textContent = price;
+          priceTotalSpan.textContent = price;
+        });
+
+        minusButton.addEventListener("click", function() {
+          let quantity = parseInt(quantityInput.value);
+          if (quantity > 1) {
+            quantityInput.value = quantity - 1;
+          }
+          if (price > 550) { 
+            price -= 550; 
+            priceSpan.textContent = price;
+            priceTotalSpan.textContent = price;
+          }
+        });
+    </script>
+</body>
+</html>

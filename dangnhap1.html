@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" href="./dangnhap1.css">
+    <link rel="stylesheet" href="./front_icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="icon" href="./img_logo/web_icon.webp" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div id="header-top">
+            <div id="h_left">
+                <ul>
+                    <li><a href="dangky1.html">Đăng ký</a></li>
+                    <li class="float"><a href="./dangnhap1.html">Đăng nhập</a></li>
+                </ul>
+            </div>
+            <div id="h_right">
+                <ul>
+                    <li><a href="BTL.html">Hướng dẫn</a></li>
+                    <li class="float"><a href="giohang1.html">Đơn hàng</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-content">
+            <div id="header-logo">
+                <a href="BTL.html"><img src="./img_logo/logo (1).webp" alt=""></a>
+            </div>
+            <div id="header-icons">
+                <div id="icons-left">
+                    <i class="fa-sharp fa-solid fa-truck"></i>
+                    <div class="icons-nd">
+                        <p class="green">Miễn phí vận chuyển</p>
+                        <span>Với đơn hàng trị giá trên <b>1.000.000đ</b></span>
+                    </div>
+                </div>
+                <div id="icons-right">
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    <div class="icons-nd">
+                        <p class="green">Đặt hàng nhanh</p>
+                        <span>Gọi ngay <a href="./danhmuc1.html" class="sdt">0974389067</a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="header-bag">
+               <a href="giohang1.html"> <i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                <div class="icons-nd">
+                    <a href="giohang1.html"><p class="green">Giỏ hàng</p></a>
+                    <a href="giohang1.html" class="color-black"><span>(0)</span> Sản phẩm</a>
+                </div>
+            </div>
+        </div>
+        <div id="header-bottom">
+            <ul id="list-content">
+                <li class="list-child home"><a href="BTL.html">TRANG CHỦ</a></li>
+                <li class="list-child"><a href="BTL.html">GIỚI THIỆU</a></li>
+                <li class="list-child nav">
+                    <a href="./aophong.html">SẢN PHẨM</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul class="subnav">
+                        <li><a href="./chi_tiet_sp1.html">ACER NITRO</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./chi_tiet_sp1.html">DEL</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="./chi_tiet_sp1.html">HP</a><i class="fa-solid fa-angle-right"></i></li>
+                        
+                    </ul>
+                </li>
+                <li class="list-child"><a href="./aophong.html">TIN TỨC</a></li>
+                <li class="list-child"><a href="./aophong.html">LIÊN HỆ</a></li>
+            </ul>
+            <form action="" method="post" id="search-parent">
+                <input id="search" type="text" placeholder="Tim kiem...">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </form>
+        </div>
+    </div>
+    <div id="content">
+        <div id="breadcrumb">
+               <ul>
+                <li class="vitri"><a href="BTL.html">Trang chủ</a></li>
+                <li class="vitrihientai"><p>Đăng nhập tài khoản</p></li>
+               </ul>
+        </div>
+        <div class="line"></div>
+        <div class="content-login">
+            <div class="login-left">
+                <h3 id="hd-dangky">THÔNG TIN CÁ NHÂN</h3>
+                <form action="" method="post" id="form-dangky">
+                   <div class="row">
+                        <div class="thongtincanhan">
+                            <label for="">Email<span class="star">*</span></label><br>
+                            <input type="email" id="myEmail">
+                            <span id="errorEmail" style="display:none; color:red; font-size: 12px; margin-top: 5px;">Vui lòng nhập email</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="thongtincanhan">
+                            <label for="">Mật khẩu<span class="star">*</span></label><br>
+                            <input type="password" id="myPassword">
+                            <span id="errorPw" style="display:none; color:red; font-size: 12px; margin-top: 5px;">Vui lòng nhập mật khẩu</span>
+                        </div>
+                    </div>
+                </form>
+                <div class="btn-dangky-dangnhap">
+                    <button type="submit" class="btn-dangnhap" id="click-dangnhap">Đăng nhập</button>
+                    <a href="./quen_mk.html">Quên mật khẩu ?</a>
+                </div>
+                <div id="login-google-facebook">
+                    <p>Hoặc đăng nhập bằng</p>
+                    <div>
+                        <a href="https://www.facebook.com/oc.chi.583"><img src="https://bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg" alt="" style="width: 129px; height: 37px;"></a>
+                        <a href="https://mail.google.com/mail/u/1/?pli=1#inbox"><img src="https://bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg" alt="" style="width: 129px; height: 37px;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="login-right">
+                <h3><a href="dangky1.html">bạn chưa có tài khoản</a></h3>
+                <p>Đăng ký tài khoản ngay để có thể mua hàng nhanh chóng và dễ dàng hơn ! Ngoài ra còn có rất nhiều chính sách và ưu đãi cho các thành viên Vemouse</p>
+                <a href="dangky1.html" class="btn-dangky">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="width90">
+            <div id="ft_left">
+                <div id="logo">
+                    <img src="./img_logo/logo (1).webp" alt="">
+                </div>
+                <div class="ft_left_thongtin">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <a href="https://www.google.com/maps/place/Ch%C3%AD+T%C3%A2n,+Kho%C3%A1i+Ch%C3%A2u,+H%C6%B0ng+Y%C3%AAn,+Vi%E1%BB%87t+Nam/@20.7846396,105.9622006,15z/data=!3m1!4b1!4m6!3m5!1s0x3135b9dfa971ac97:0x49787c8e1d561e13!8m2!3d20.7843831!4d105.9729255!16s%2Fg%2F1hb_fpm0n"><p>Chí Tân - Khoái Châu - Hưng Yên</p></a>
+                </div>
+                <div class="ft_left_thongtin">
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    <a href="" class="thongtinhover">0974389067</a>
+                </div>
+                <div class="ft_left_thongtin">
+                    <i class="fa-sharp fa-regular fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/u/1/?pli=1#inbox" class="thongtinhover">Minh291123@gmail.com</a>
+                </div>
+            </div>
+            <div id="ft_right">
+                <div class="ft_right_thongtin">
+                    <h3>TÀI KHOẢN</h3>
+                    <a href="">Trang chủ</a>
+                    <a href="">Giới thiệu</a>
+                    <a href="">Sản phẩm</a>
+                    <a href="">Tin tức</a>
+                    <a href="">Liên hệ</a>
+                </div>
+                <div class="ft_right_thongtin">
+                    <h3>CHÍNH SÁCH</h3>
+                    <a href="">Trang chủ</a>
+                    <a href="">Giới thiệu</a>
+                    <a href="">Sản phẩm</a>
+                    <a href="">Tin tức</a>
+                    <a href="">Liên hệ</a>
+                </div>
+                <div class="ft_right_thongtin">
+                    <h3>ĐIỀU KHOẢN</h3>
+                    <a href="">Trang chủ</a>
+                    <a href="">Giới thiệu</a>
+                    <a href="">Sản phẩm</a>
+                    <a href="">Tin tức</a>
+                    <a href="">Liên hệ</a>
+                </div>
+                <div class="ft_right_thongtin">
+                    <h3>HƯỚNG DẪN</h3>
+                    <a href="">Trang chủ</a>
+                    <a href="">Giới thiệu</a>
+                    <a href="">Sản phẩm</a>
+                    <a href="">Tin tức</a>
+                    <a href="">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var inputEmail = document.getElementById("myEmail");
+        var errorEmail = document.getElementById("errorEmail");
+        var clickdangnhap = document.getElementById("click-dangnhap");
+
+        inputEmail.addEventListener("blur", function() {
+        if (inputEmail.value == "") {
+            errorEmail.style.display = "block";
+        } else {
+            errorEmail.style.display = "none";
+        }
+    });
+
+        var inputPw = document.getElementById("myPassword");
+        var errorPw = document.getElementById("errorPw");
+        inputPw.addEventListener("blur", function() {
+        if (inputPw.value == "") {
+            errorPw.style.display = "block";
+        } else {
+            errorPw.style.display = "none";
+        }
+    });
+
+        clickdangnhap.addEventListener("click", function() {
+        if (inputEmail.value == "" || inputPw.value == "") {
+            alert("bạn chưa nhập đủ email hoặc mật khẩu !")
+        } else {
+            errorEmail.style.display = "none";
+            errorPw.style.display = "none";
+            window.location = '../BTL WEB Nguyễn Văn Minh/BTL.html'
+        }
+    });
+    </script>
+</body>
+</html>
